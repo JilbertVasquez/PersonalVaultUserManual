@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.naviagation {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 5vh;
+    background-color: #0D1B2A;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.links {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.links a {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.links a:hover {
+    border-bottom: 2px solid white;
+    transition: 3s ease;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.abstract {
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+    padding-top: 4%;
+}
+
+
+.abstract h1{
+    font-size: 34px;
+    padding: 2%;
+    padding-bottom: 4%;
+    
+    text-align: center;
+}
+
+.abstract h2 {
+    font-size: 28px;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.abstract p {
+    text-indent: 5%;
+    text-align: justify;
+    line-height: 200%;
+    font-size: 20px;
+    padding: 2%;
+    padding-bottom: 0%;
+}
+
+.User h1, .administrator h1 {
+    font-size: 34px;
+    margin: auto;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+.User h2, .administrator h2 {
+    font-size: 28px;
+    padding: 2%;
+}
+
+.User img, .administrator img {
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.User p, .administrator p {
+    text-indent: 5%;
+    text-align: justify;
+    line-height: 200%;
+    font-size: 20px;
+    padding: 5%;
+    padding-bottom: 10%;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 1580px) {
+    .naviagation {
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+        height: 5vh;
+        background-color: #0D1B2A;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .links a {
+        margin-left: 6%;
+        margin-right: 6%;
+        font-size: 14px;
+    }
+    
+
+    .abstract h1{
+        font-size: 26px;
+    }
+    
+    .abstract h2 {
+        font-size: 26px;
+        padding: 2%;
+    }
+    
+    .abstract p {
+        font-size: 16px;
+        padding-bottom: 0%;
+    }
+
+    .User h1, .administrator h1 {
+        font-size: 26px;
+        margin: auto;
+    }
+    
+    .User h2, .administrator h2 {
+        font-size: 22px;
+    }
+    
+    .User img, .administrator img {
+        width: 50%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .facultUsery_staff p, .administrator p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .naviagation {
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .links {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .links a {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .abstract h1{
+        margin-top: 10%;
+    }
+
+    .abstract h2{
+        margin-top: 10%;
+    }
+
+    .abstract p{
+        margin-top: 10%;
+        font-size: 18px;
+    }
+    .User img, .administrator img {
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1290px) {
+    .naviagation {
+        height: 5vh;
+    }
+
+    .links {
+        justify-content: space-around;
+    }
+
+    .links a {
+        margin-left: 0%;
+        margin-right: 0%;
+        font-size: 12px;
+    }
+
+    .abstract {
+        height: auto;
+        padding-bottom: 10%;
+    }
+
+    .abstract h1{
+        font-size: 16px;
+        margin-top: 20%;
+    }
+    
+    .abstract h2 {
+        font-size: 14px;
+        padding: 2%;
+    }
+    
+    .abstract p {
+        font-size: 12px;
+        padding-bottom: 0%;
+    }
+
+    .User h1, .administrator h1 {
+        font-size: 14px;
+        margin: auto;
+
+    }
+    
+    .User h2, .administrator h2 {
+        font-size: 12px;
+    }
+    
+    .User img, .administrator img {
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .User p, .administrator p {
+        font-size: 10px;
+    }
+    
+    footer {
+        font-size: 8px;
+    }
+}
